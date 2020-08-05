@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Bree Serif;
+}
+
+.chair{
+    height: 60%;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-70%, -70%);
+}
+
+.s1{
+    background-image: url("./img/couch.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 100% 60%;
+}
+
+.section h1{
+    font-size: 64px;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -20%); 
+    background: linear-gradient(to left, #fdfdfd, #00b8ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.s2{
+    background: linear-gradient(to left, #cbcbcbcb, white);
+}
+
+.s2 h1{
+    top: 30px;
+    font-size: 48px;
+    background: linear-gradient(to left, #ff0000, #ff4e4e41);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;;
+}
+
+.description p{
+    margin: 50px 0px;
+
+}
+
+@media only screen and (max-width: 780px) {
+    .s1{
+        background-size:100% 100%;
+    }
+    .chair{
+        height: 60%;
+        position: absolute;
+        top: 70%;
+        left: 18%;
+    }
+    
+  }
